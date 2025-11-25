@@ -1,0 +1,111 @@
+body {
+    background-color: antiquewhite;
+    margin: 100px 0 0 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*Header*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: rgb(216, 178, 151);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    padding-right: 20px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: brown;
+    text-decoration: underline;
+}
+
+/*Main*/
+
+h1 {
+    color: azure ; 
+    background-color: rgb(170, 112, 70); 
+    text-align: center;
+}
+
+#seccion1 button {
+    background-color: brown;
+    display: block; 
+    margin: 20px auto 0;
+    width: 150px;
+    border-radius: 20px;
+    border: 0cap;
+}
+
+#seccion2 h2 {
+    text-align: center;
+}
+
+#seccion2 .divs2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    max-width: 1200px;
+    margin: auto;
+} 
+
+#seccion2 .divs2 div {
+    width: 45%;
+    padding: 0 20px;
+}
+
+#seccion2 .divs2 div p,
+#seccion2 .divs2 div {
+    text-align: center;
+}
+
+/*Footer*/
+
+footer {
+    display: flex;
+    padding: 30px 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .redsocial ul {
+    display: flex;
+    list-style: none;
+}
+
+footer p {
+    text-align: right;
+}
+
+footer .mail {
+    color: blueviolet;
+}
+
+
+
+
+
+/*Buscar como hizo para que un titulo este centrado, de la 2da forma*/
