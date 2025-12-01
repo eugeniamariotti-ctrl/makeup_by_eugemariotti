@@ -4,27 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documento de Euge</title>
+    <title>Portfolio de Euge Mariotti</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <a href="">
-            <img src="" alt="logo">
+            <img class="logo" src="img/Logo.png" alt="logo">
         </a>
 
         <nav>
             <ul>
                 <li>
-                    <a href="#seccion1">
-                        Contenido 1
+                    <a href="#tiposdemakeups">
+                        Tipos de make ups
                     </a>
                 </li>
                 <li>
-                    <a href="#seccion2">Contenido 2</a>
+                    <a href="#clientas">
+                        Clientas
+                    </a>
                 </li>
-                <li>Contenido 3</li>
+                <li>
+                    <a href="#redsocial">
+                        Turnos
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -32,84 +38,77 @@
     <!--comentarios-->
 
     <main>
-        <section>
-            <h1 title="Porfolio de maquillaje">Euge Make up</h1>
+        <section id="presentacion">
+            <div class="cuadrado"></div>
+            <h1 title="Porfolio de maquillaje">Euge Mariotti Make up artist</h1>
         </section>
 
-        <section id="seccion1">
-            <h2>Subtitulo</h2>
-            <div class="divs1">
+        <section id="tiposdemakeups">
+            <h2>Tipos de make ups</h2>
+            <div class="contenedor-iconos">
                 <div>
-                    <img src="" alt="">
+                    <img src="Img/Casamiento.jpg" alt="Novias">
+                    <p>NOVIAS</p>
                 </div>
                 <div>
-                    <img src="" alt="">
+                    <img src="Img/social.jpg" alt="Social">
+                    <p>SOCIAL</p>
                 </div>
                 <div>
-                    <img src="" alt="">
+                    <img src="Img/artistico.jpeg" alt="Artistico">
+                    <p>ARTISTICO</p>
                 </div>
             </div>
-            <button onclick="cambiarColor('#000000')">Agenda un turno</button>
-            <button onclick="cambiarColor('yellow')">cambiar color</button>
         </section>
 
-        <section id="seccion2">
-            <h2>Subtitulo</h2>
-            <div class="divs2">
+        <section id="clientas">
+            <h2>Clientas</h2>
+            <div class="contenedor-programa">
                 <div>
-                    <img src="" alt="imagen">
-                    <p>texto</p>
+                    <img src="Img/Milagros.jpg" alt="mili">
+                    <h3>Milagros</h3>
+                    <p>Maquillaje social para un casamiento en tonos rosas</p>
                 </div>
                 <div>
-                    <img src="" alt="imagen">
-                    <p>texto</p>
+                    <img src="Img/Elena.jpg" alt="elen">
+                    <h3>Elena</h3>
+                    <p>Maquillaje social para un casamiento en todos plateados</p>
                 </div>
                 <div>
-                    <img src="" alt="imagen">
-                    <p>texto</p>
+                    <img src="Img/Brenda.jpeg" alt="bren">
+                    <h3>Brenda</h3>
+                    <p>Maquillaje social para un casamiento en tonos plateados</p>
                 </div>
                 <div>
-                    <img src="" alt="imagen">
-                    <p>texto</p>
+                    <img src="Img/Eugenia.jpg" alt="euge">
+                    <h3>Eugenia</h3>
+                    <p>Maquillaje artístico para una obra de Navidad</p>
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <!--comentarios<h3>Saca tu turno para lookearte aquí</h3>
-        <form action="">
-            <label for="input-name">Nombre y apellido:</label>
-            <input type="text" id="input-name" name="input-name" placeholder="Ingrese su nombre" size="20" />
-
-            <label for="mail">Email:</label>
-            <input type="email" id="mail" name="mail" placeholder="Ingrese su email" size="20" />
-
-            <label for="telefono">Celular:</label>
-            <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su celular" size="20" />
-
-            <label for="start">Fecha:</label>
-            <input type="date" id="start" name="start" />
-
-            <button type="submit">Enviar</button>
-        </form> -->
-
-        <div class="redsocial">
+        <div id="redsocial">
+            <h4>Conseguí tu turno a traves de mis redes o contactos</h4>
             <ul>
                 <li>
-                    <a href=""></a>
+                    <a href="https://www.instagram.com/eugemariotti_?igsh=NnVjMXA5am9pOXVy">
+                        <img class="insta" src="Img/insta.jpeg" alt="Instagram">
+                     </a>
                 </li>
                 <li>
-                    <a href=""></a>
-                </li>
-                <li>
-                    <a href=""></a>
+                    <a href="https://wa.me/qr/35RGX4Z2YKMZM1">
+                        <img class="wpp" src="Img/whatsapp.jpeg" alt="Whatsapp">
+                    </a>
                 </li>
             </ul>
         </div>
 
         <div>
-            <p>texto informacion <a class="mail" href="mailto: eugeniamariotti@gmail.com">eugeniamariotti@gmail.com</a></p>
+            <p>
+                <a class="mail" href="mailto: eugeniamariotti@gmail.com">eugeniamariotti@gmail.com</a>
+            </p>
         </div>
     </footer>
 

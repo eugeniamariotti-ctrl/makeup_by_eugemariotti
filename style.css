@@ -1,6 +1,7 @@
 body {
     background-color: antiquewhite;
     margin: 100px 0 0 0;
+    font-family: "garamond", serif 
 }
 
 img {
@@ -9,12 +10,17 @@ img {
 
 /*Header*/
 
+.logo {
+    width: 100%;
+    height: 100px;
+}
+
 header {
     position: fixed;
     top: 0;
     left: 0;
     z-index: 2;
-    background-color: rgb(216, 178, 151);
+    background-color: #8b4c4c;
     height: 100px;
     width: 100%;
     display: flex;
@@ -35,51 +41,76 @@ header nav ul li {
 }
 
 header nav ul li a {
+    color: #dfadad;
     text-decoration: none;
 }
 
 header nav ul li a:hover {
-    color: brown;
     text-decoration: underline;
 }
 
 /*Main*/
 
 h1 {
-    color: azure ; 
-    background-color: rgb(170, 112, 70); 
+    color: #8b4c4c ; 
+    background-color: #dfadad;
+    font-size: 40px;
     text-align: center;
 }
 
-#seccion1 button {
-    background-color: brown;
-    display: block; 
-    margin: 20px auto 0;
-    width: 150px;
-    border-radius: 20px;
-    border: 0cap;
+#tiposdemakeups h2 {
+    font-size: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+    color:#8b4c4c;
 }
 
-#seccion2 h2 {
+#tiposdemakeups img {
+    width: 200px;
+}
+
+#tiposdemakeups .contenedor-iconos {
+    display: flex;
+    justify-content: space-evenly;
     text-align: center;
 }
 
-#seccion2 .divs2 {
+.contenedor-iconos p {
+    color: #8b4c4c;
+    font-size: 15px;
+}
+
+#clientas {
+    background-color: #8b4c4c;
+}
+
+#clientas h2 {
+    font-size: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+    color:#dfadad;
+    padding-top: 20px;
+}
+
+#clientas .contenedor-programa {
     display: flex;
     flex-wrap: wrap;
     padding: 0 50px;
-    max-width: 1200px;
+    max-width: 800px;
     margin: auto;
 } 
 
-#seccion2 .divs2 div {
+#clientas .contenedor-programa div {
     width: 45%;
     padding: 0 20px;
+    color: #dfadad;
 }
 
-#seccion2 .divs2 div p,
-#seccion2 .divs2 div {
+#clientas .contenedor-programa div,
+#clientas .contenedor-programa div p {
     text-align: center;
+    color: #dfadad;
+    padding-bottom: 20px;
 }
 
 /*Footer*/
@@ -89,11 +120,25 @@ footer {
     padding: 30px 50px;
     align-items: center;
     justify-content: space-between;
+    background-color: #dfadad;
 }
 
-footer .redsocial ul {
+
+footer #redsocial ul {
     display: flex;
+    justify-content: space-between;
     list-style: none;
+}
+
+#redsocial img {
+    width: 50px;
+    height: 100%;
+    
+}
+
+#redsocial h4 {
+    color: #8b4c4c;
+    text-align: center;
 }
 
 footer p {
@@ -101,9 +146,13 @@ footer p {
 }
 
 footer .mail {
-    color: blueviolet;
+    color: #8b4c4c;
+    text-decoration: none;
 }
 
+footer .mail:hover {
+    text-decoration: underline;
+}
 
 
 

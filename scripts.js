@@ -31,26 +31,6 @@ let largoNombre = mostrarLargoNombre("María Eugenia")
 console.log("El nombre tiene " + largoNombre + " letras")
 
 
-//let boton = document.querySelectorAll("button");
 
-function cambiarColor(colorPersonalizado) {
-    let texto = document.querySelector("h1");
-    //boton.style.backgroundColor = colorPersonalizado;
 
-    texto.style.color = colorPersonalizado;
-}
-
-let listaSuper = ["Pan", "Hamburguesa", "Queso cheddar", "Lechuga", "Cebolla"]
-
-function agregarArticulo() {
-    let texto = window.prompt("Agregar un artículo del super");
-    let loIncluye = listaSuper.includes(texto);
-    if(loIncluye) {
-        alert("Este articulo ya existe");
-    } else {
-        alert("Gracias por su aporte");
-    }
-}
-
-agregarArticulo();
 
