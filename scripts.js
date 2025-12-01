@@ -2,6 +2,7 @@ let nombre = "María Eugenia";
 let apellido = "Mariotti";
 let edad = 27;
 let tengoMascota = false;
+let profe = "Profe"
 
 console.log("Nombre = ", nombre);
 console.log("Apellido = ", apellido);
@@ -30,7 +31,4 @@ function mostrarLargoNombre(numDeLetras) {
 let largoNombre = mostrarLargoNombre("María Eugenia")
 console.log("El nombre tiene " + largoNombre + " letras")
 
-
-
-
-
+window.alert("Bienvenido a nuestro sitio web");
