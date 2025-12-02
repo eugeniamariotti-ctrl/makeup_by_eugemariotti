@@ -115,46 +115,27 @@ h1 {
 
 /*Footer*/
 
-footer {
-    display: flex;
+Footer {
     padding: 30px 50px;
-    align-items: center;
-    justify-content: space-between;
     background-color: #dfadad;
+
+    & #redsocial ul {
+        display: flex;
+        gap: 1rem;
+        padding: 0;
+        list-style: none;
+        justify-content: center;
+    }
+
+    & img {
+        width: 50px;
+        height: 100%;
+        border-radius: 5px;
+    }
+
+    & h4 {
+        color: #8b4c4c;
+        text-align: center;
+        font-size: 20px;
+    }
 }
-
-
-footer #redsocial ul {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-}
-
-#redsocial img {
-    width: 50px;
-    height: 100%;
-    
-}
-
-#redsocial h4 {
-    color: #8b4c4c;
-    text-align: center;
-}
-
-footer p {
-    text-align: right;
-}
-
-footer .mail {
-    color: #8b4c4c;
-    text-decoration: none;
-}
-
-footer .mail:hover {
-    text-decoration: underline;
-}
-
-
-
-
-/*Buscar como hizo para que un titulo este centrado, de la 2da forma*/
